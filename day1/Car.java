@@ -1,12 +1,23 @@
-package week1.day1;
+package week3.day1;
 
-public class Car {
-	public void applybreak() {
-		System.out.println("Applied Break");
+
+
+public class Car extends VehicleInheritance {
+	public void bmw() {
+		System.out.println("BMW Car");
 
 	}
-public void soundhorn() {
-	System.out.println("sound horn");
+	public void audi() {
+		System.out.println("Audi Car");
 
-}
+	}
+	
+	public static void main(String[] args) {
+		Car obj=new Car();
+		obj.ApplyBreak();
+		
+		
+	}
+	
+
 }
